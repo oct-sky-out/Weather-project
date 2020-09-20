@@ -1,0 +1,52 @@
+.WeatherInfo {
+  & .city-name {
+    width: 100%;
+    font-size: 8rem;
+    color: #f8d01d;
+  }
+  & .weather-emoji {
+    margin-top: 2%;
+    font-size: 10rem;
+    width: 100%;
+  }
+  & .weather-temp {
+    font-size: 5rem;
+    color: aliceblue;
+  }
+  & .weather-temps,
+  & .weather-info {
+    color: aliceblue;
+    margin-top: 2%;
+    font-size: 2.5rem;
+  }
+  @media screen and (max-width: 768px) {
+    & .city-name {
+      font-size: 6rem;
+    }
+    & .weather-temp {
+      font-size: 4rem;
+    }
+    & .weather-temps,
+    & .weather-info {
+      font-size: 2rem;
+    }
+  }
+  @media screen and (max-width: 425px) {
+    & {
+      margin-top: 30%;
+    }
+    & .city-name {
+      font-size: 4rem;
+    }
+    & .weather-emoji {
+      font-size: 6rem;
+    }
+    & .weather-temp {
+      font-size: 2.5rem;
+    }
+    & .weather-temps,
+    & .weather-info {
+      font-size: 1rem;
+    }
+  }
+}

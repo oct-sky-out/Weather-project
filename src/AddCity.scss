@@ -1,0 +1,74 @@
+.AddCity {
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  font-size: 2.5rem;
+  & .menu-open-ico,
+  & .go-home-btn {
+    color: #f8d01d;
+    width: 5%;
+    margin: 0 1% 0 1%;
+    cursor: pointer;
+    & > .home-link {
+      color: #f8d01d;
+    }
+  }
+  & .add-city-form {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    flex: 1;
+    & .add-city-input {
+      padding: 0.5%;
+      font-size: 1.5rem;
+      width: 30%;
+      border: 5px solid #f8d01d;
+      border-radius: 10px;
+      outline: none;
+    }
+    & .add-city-btn {
+      font-size: 2.5rem;
+      line-height: 2px;
+      margin-left: 0.1%;
+      width: 4%;
+      border: none;
+      color: #f8d01d;
+      background-color: inherit;
+      cursor: pointer;
+      outline: none;
+      &:focus {
+        border: 0;
+      }
+    }
+  }
+  @media screen and (max-width: 768px) {
+    & .menu-open-ico,
+    & .go-home-btn {
+      padding: 0 3%;
+    }
+    & .add-city-form {
+      & .add-city-input {
+        font-size: 1.5rem;
+        width: 70%;
+      }
+      & .add-city-btn {
+        margin-left: 5%;
+      }
+    }
+  }
+  @media screen and (max-width: 425px) {
+    & {
+      justify-content: space-between;
+      font-size: 1.3rem;
+    }
+    & .add-city-form {
+      & .add-city-input {
+        font-size: 0.7rem;
+      }
+      & .add-city-btn {
+        font-size: 1.3rem;
+      }
+    }
+  }
+}
