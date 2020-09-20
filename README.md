@@ -18,6 +18,11 @@
 > Runs the app in the development mode.<br />
 > Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
+### 앱 실행 사진
+![screenShot1](./screenShot/screenShot1.png)
+
+![screenShot2](./screenShot/screenShot2.png)
+
 #### 아직 많이 부족해서 혹시 이러한 기능도 넣어줬으면 하시는 분은 이슈를 남겨주세요!
 #### 로직도 이상하다 싶은 부분도 남겨주세요!! 배우는 입장에서 감사드립니다!!
 #### 개발 후 풀리퀘 남겨놓겠습니다!!!
