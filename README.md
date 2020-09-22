@@ -7,6 +7,12 @@
 
 ## 실행방법
 
+### node_modules의 파일이 너무커서 빠졌습니다.
+> 1. git clone https://github.com/OctSkyOut/Weather-project.git
+> 2. npm install
+> 3. npm run start
+> 4. 실행완료
+
 ### `npx serve -s build`
 
 > 모의로 실제 배포되는 환경으로 로컬에서 실행시켜준다.
