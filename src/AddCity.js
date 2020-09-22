@@ -25,6 +25,7 @@ function AddCity({ menuActive, menuStyle, setMenuActive, setOtherCity }) {
       );
       setCityName("");
       nextId.current += 1;
+      alert("도시가 추가되었습니다. 메뉴창에서 확인하세요!");
       e.preventDefault();
     },
     [cityName, setOtherCity, nextId]
