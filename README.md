@@ -8,7 +8,7 @@
 ## 실행방법
 
 ### node_modules의 파일이 너무커서 빠졌습니다.
-> 1. git clone https://github.com/OctSkyOut/Weather-project.git
+> 1. git clone
 > 2. npm install
 > 3. npm run start
 > 4. 실행완료
