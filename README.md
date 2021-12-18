@@ -7,7 +7,7 @@
 
 
 ## GitHub Pages 배포완료
-### https://oct-sky-out.github.io/Weather-project/로 이동
+### https://oct-sky-out.github.io/Weather-project/ 로 이동
 ## 실행방법
 
 ### node_modules의 파일이 너무커서 빠졌습니다.
